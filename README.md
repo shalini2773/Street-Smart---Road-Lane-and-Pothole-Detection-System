@@ -30,14 +30,12 @@ StreetSmart/ │ ├── main.py                        # GUI for lane and pot
      ```
   3. **Install the required dependencies:** Install all the dependencies listed in the requirements.txt file. 
   4. **Download YOLOv5 Models:** Ensure that you have the YOLOv5 model files (best.pt for lane detection and pothole detection) in the appropriate paths as specified in detection.py.
-
-For example:
-
+   For example:
 yolov5/runs/train/exp6/weights/best.pt for lane detection.
 
 yolov5/runs/train/exp8/weights/best.pt for pothole detection.
 
-5.**Set up Alert Sound:** Ensure you have the alert.wav file in the project directory for sound alerts on pothole detection.
+   5.**Set up Alert Sound:** Ensure you have the alert.wav file in the project directory for sound alerts on pothole detection.
 
 # Usage
 
