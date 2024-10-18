@@ -47,7 +47,7 @@ yolov5/runs/train/exp8/weights/best.pt for pothole detection.
   python main.py
 
 
-  2. **Features:**
+ 2. **Features:**
 
   Lane Detection: Click on the "Lane Detection" button to start lane detection using your webcam.
 
@@ -108,7 +108,8 @@ Contributions are welcome! Please submit a pull request or open an issue if you 
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-**Thank you for visiting and checking out Street Smart: Road Lane and Pothole Detection System. Your interest and support mean a lot! If you find this project helpful, please feel free to contribute, suggest improvements, or raise any issues. Together, we can make our roads safer!**
+
+Thank you for visiting and checking out Street Smart: Road Lane and Pothole Detection System. Your interest and support mean a lot! If you find this project helpful, please feel free to contribute, suggest improvements, or raise any issues. Together, we can make our roads safer!
 
 
 
