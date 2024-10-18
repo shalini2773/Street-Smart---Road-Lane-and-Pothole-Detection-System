@@ -28,7 +28,8 @@ StreetSmart/ │ ├── main.py                        # GUI for lane and pot
      ```
      cd ProjectFiles
      ```
-  3. **Install the required dependencies:** Install all the dependencies listed in the requirements.txt file. 
+  3. **Install the required dependencies:** Install all the dependencies listed in the requirements.txt file.
+     
   4. **Download YOLOv5 Models:** Ensure that you have the YOLOv5 model files (best.pt for lane detection and pothole detection) in the appropriate paths as specified in detection.py.
      
    For example:
@@ -36,22 +37,23 @@ yolov5/runs/train/exp6/weights/best.pt for lane detection.
 
 yolov5/runs/train/exp8/weights/best.pt for pothole detection.
 
-   5.**Set up Alert Sound:** Ensure you have the alert.wav file in the project directory for sound alerts on pothole detection.
+   5. **Set up Alert Sound:**
+       Ensure you have the alert.wav file in the project directory for sound alerts on pothole detection.
 
 # Usage
 
-1. **Run the application:** To start the graphical user interface (GUI), run the main.py file:
+  1. **Run the application:** To start the graphical user interface (GUI), run the main.py file:
 
-python main.py
+  python main.py
 
 
-2. **Features:**
+  2. **Features:**
 
-Lane Detection: Click on the "Lane Detection" button to start lane detection using your webcam.
+  Lane Detection: Click on the "Lane Detection" button to start lane detection using your webcam.
 
-Pothole Detection: Click on the "Pothole Detection" button to start detecting potholes with sound alerts.
+  Pothole Detection: Click on the "Pothole Detection" button to start detecting potholes with sound alerts.
 
-Upload Image: Click the "Upload Image" button to upload an image and view it in grayscale.
+  Upload Image: Click the "Upload Image" button to upload an image and view it in grayscale.
 
 # Configuration
 
@@ -68,8 +70,6 @@ set EMAIL_PASSWORD=your_email_password
 For Linux/Mac:
 
 export EMAIL_PASSWORD=your_email_password
-
-
 
 2. Modify utils.py to retrieve the password from the environment variable:
 
